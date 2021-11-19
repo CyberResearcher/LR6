@@ -33,9 +33,9 @@
 
 ![git log branch1](screenshots/git-checkout-branch1.png)
 
-- **Попытка слияния веток командой ** 'git merge <branch>'
+- **Попытка слияния веток**
 
-Для исправления конфликта вручную открываем файл mergefile.txt блокнотом командой `notepad mergefile.txt` и испарвляем текст
+Для исправления конфликта вручную открываем файл mergefile.txt блокнотом командой `notepad mergefile.txt` и корректируем текст
 
 ![git merge error](screenshots/git-merge-err.png)
 
@@ -67,3 +67,8 @@
 
 ![report branch](screenshots/creation-report-branch.png)
 
+### Отчет
+
+История изменений в форматированном виде с помощью команды `git log --pretty=format:"%C(yellow) %h %Cgreen %as %Cred %an %Creset %s"`
+
+![final report](screenshots/final-report.png)
